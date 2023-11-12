@@ -1,0 +1,22 @@
+header {
+  background-color: red;
+}
+header ul {
+  display: flex;
+  color: green;
+  background-color: beige;
+}
+header li {
+  background-color: aqua;
+  color: black;
+}
+
+main {
+  background-color: green;
+}
+main h1 {
+  background-color: aquamarine;
+}
+main p {
+  background-color: goldenrod;
+}/*# sourceMappingURL=style.css.map */
