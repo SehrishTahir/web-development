@@ -20,12 +20,12 @@
 </style>
 <body>
     <button>Click me</button>
-    <div class="cointainer"></div>
+    <div class="container"></div>
     <script>
         function onClickEvent() {
             const el = document.createElement('p');
             el.innerText = 'Clicked the button';
-            document.querySelectoer('.container').appendChild(el);
+            document.querySelector('.container').appendChild(el);
             }
             document.querySelector('button').onclick = onClickEvent;
     </script>
